@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e5f4a3;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem;
+    background: #a0c4f1;
+    text-align: center;
+
+    
+}
+
+
+header, main{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+main button{
+    color: #ffffff; /*Esse é a cor do texto do botão*/
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+main button:hover{
+    color: rgb(6, 6, 6); /* Esse é a cor do botão*/
+    background: #8cbe7a; /* Essa é a cor que fica ao passar o mouse.*/
+}
+
+
+main input, main button{
+    margin: 5px;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: none;
+    background: #a0c4f1;
+    
+}
+
+
+#btnFeito{
+    background: #8ce598;
+}
+
+#btnRemover{
+    background: #eb4040;
+}
+
+.completa{
+    text-decoration: line-through;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#lista, #divLista{
+    margin-top: 5%;
+    
+}
+
+#divLista{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#texto{
+    display: flex;
+    flex-direction: column;
+}
